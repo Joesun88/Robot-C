@@ -265,13 +265,15 @@ roughnessSlider.addEventListener("input", e => {
   updateAllMaterials(pbr => pbr.setRoughnessFactor(val));
   roughnessValue.textContent = val.toFixed(2);
 });
-</script>
+
 
 /* pbr.setBaseColorFactor([0.42,0.43,0.46,1]); */
 
 pbr.setMetallicFactor(0.85);
 
 pbr.setRoughnessFactor(0.20);
+
+</script>
 
 </body>
 </html>
